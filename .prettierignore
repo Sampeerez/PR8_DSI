@@ -13,4 +13,5 @@ typedoc.json
 .prettierrc.json
 .nyc_output
 .pretterignore
+.github
 README.md
