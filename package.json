@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha",
     "doc": "typedoc",
-    "coverage": "nyc npm test && nyc report --reporter=text-lcov | coveralls && rm -rf .nyc_output",
+    "coverage": "nyc npm test && nyc report --reporter=lcov",
     "ejercicio1": "tsc-watch --onSuccess \"node dist/ejercicio-1.js\""
   },
   "keywords": [],
@@ -18,7 +18,6 @@
     "@typescript-eslint/eslint-plugin": "^7.2.0",
     "@typescript-eslint/parser": "^7.2.0",
     "chai": "^4.4.1",
-    "coveralls": "^3.1.1",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "mocha": "^10.3.0",
