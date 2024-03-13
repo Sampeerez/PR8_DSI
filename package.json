@@ -1,7 +1,7 @@
 {
   "name": "pr8_dsi",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![Coverage Status](https://coveralls.io/repos/github/Sampeerez/PR8_DSI/badge.svg?branch=main)](https://coveralls.io/github/Sampeerez/PR8_DSI?branch=main)",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
@@ -28,5 +28,8 @@
     "tsc-watch": "^6.0.4",
     "typedoc": "^0.25.12",
     "typescript": "^5.4.2"
+  },
+  "directories": {
+    "test": "tests"
   }
 }

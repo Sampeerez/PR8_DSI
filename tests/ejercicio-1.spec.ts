@@ -1,6 +1,6 @@
 import 'mocha';
 import {expect} from 'chai';
-import {add} from "../src/ejercicio-1.js";
+import {add} from "../src/ejercicio-1.ts";
 
 describe("add function tests", () => {
   it("add(1, 8) returns value 9", () => {
