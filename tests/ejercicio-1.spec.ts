@@ -32,14 +32,6 @@ describe("PE exercise", () => {
   });
 
   describe("GenericObservable", () => {
-    const event: Event<string> = {
-      data: "Concierto en la isla de la Palma de el famoso grupo UB40",
-      id: "367883",
-      date: "13/03/2024",
-      name: "UB40 concert",
-      type: "Concierto"
-    };
-  
     const observer = new ConcreteObserver();
     let observable: GenericObservable<string>;
   
